@@ -10,4 +10,5 @@ jobs:
           shell: /bin/sh
           command: |
             node_modules/.bin/_mocha
+            echo "tests completed"
       - run: echo "hello world"
